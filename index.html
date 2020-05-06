@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <title>Résumé</title>
     <link rel="stylesheet" href="https://volodymyrkushnir.com/assets/stylesheets/base.css">
+    <style>
+      object.avatar {
+        height: 170px;
+        width: 170px;
+      }
+    </style>
   </head>
   <body>
     <main>
@@ -14,7 +20,7 @@
               <div class="three wide center aligned column">
                 <!-- Avatar -->
                 <div class="avatar-wrapper">
-                  <object class="avatar" data="./assets/images/avatar.png" role="img" aria-label="My profile picture" height="160px" width="160px"></object>
+                  <object class="avatar" data="./assets/images/avatar.png" role="img" aria-label="My profile picture"></object>
                 </div>
               </div>
               <div class="thirteen wide column">
@@ -72,8 +78,8 @@
                 <h3>Experience</h3>
                 <ul class="timeline">
                   <li class="details">
-                    <input type="checkbox" id="other">
-                    <label for="other" class="summary"><strong>2000 - nowadays</strong></label>
+                    <input type="checkbox" id="now">
+                    <label for="now" class="summary"><strong>2000 - nowadays</strong></label>
                     <div>
                       <ul>
                         <li>
@@ -109,8 +115,8 @@
                   </li>
 
                   <li class="details">
-                    <input type="checkbox" id="other">
-                    <label for="other" class="summary"><strong>19xx</strong></label>
+                    <input type="checkbox" id="past">
+                    <label for="past" class="summary"><strong>19xx</strong></label>
                     <div>
                       <ul>
                         <li>
@@ -172,9 +178,10 @@
                       </ul>
                     </div>
                   </li>
-
+                </ul>
 
                   <h3>Personal life</h3>
+                <ul class="timeline">
                   <li class="details">
                     <input type="checkbox" id="other">
                     <label for="other" class="summary">Some information 👇🏼 (it could be interesting, but actually no)</label>
@@ -216,10 +223,11 @@
                             <p><em>1977</em></p>
                             <p>Married Czech model Ivana Zelníčková</p>
                         </li>
-                      </ul></div>
-                    </ul>
+                      </ul>
                     </div>
                   </li>
+                </ul>
+              </div>
               <div class="six wide column">
                 <!-- Languages -->
                 <section>
@@ -262,7 +270,7 @@
                     </li>
                     <li>
                       <div><em>1966</em></div>
-                      <div><strong>Transferred to the Wharton School of the University of Pennsylvania and graduated in May 1968 with a B.S. in economics</strong></a></div>
+                      <div><strong>Transferred to the Wharton School of the University of Pennsylvania and graduated in May 1968 with a B.S. in economics</strong></div>
                     </li>
                     <li>
                       <div><em>1964</em></div>
